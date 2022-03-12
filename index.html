@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>La Tribuna del Gamer</title>
   <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+  <link rel="stylesheet" href="src/css/dark_mode.css">
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="nav">
       <input id="check" type="checkbox" class="nav__checkbox">
       <label for="check" class="nav__checkbox-label"><i class="fas fa-bars"></i></label>
 
@@ -22,6 +24,10 @@
         <li class="nav__ul-li"><i class="fas fa-users"></i><a href="#about-us">About-us</a></li>
         <li class="nav__ul-li"><i class="fas fa-comment-alt"></i><a href="#contact">Contact</a></li>
       </ul>
+      <button class="switch" id="switch">
+        <span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span>
+      </button>
     </nav>
   </header>
 
@@ -50,5 +56,6 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/083af086b8.js" crossorigin="anonymous"></script>
+  <script src="build/js/dark__mode.js"></script>
 </body>
 </html>
