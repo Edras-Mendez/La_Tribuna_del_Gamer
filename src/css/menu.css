@@ -1,0 +1,41 @@
+.nav {
+  background-color: #4ccc5c ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__checkbox,.nav__checkbox-label {
+  display: none;
+}
+.nav__logo {
+  padding: 2px 15px;  
+}
+.nav__a-logo {
+  width: 130px;
+}
+.nav__ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav__ul-li {
+  margin-right: 10px;
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.nav__ul-li i {
+  margin-right: 6px;
+}
+
+.nav__ul-li a {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+}
+
+.nav__ul-li:hover > a, .nav__ul-li:hover{
+  color: #ccc;
+}
+
